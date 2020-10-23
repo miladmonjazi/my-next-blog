@@ -1,0 +1,15 @@
+.tech-carousel {
+  background-color: #000;
+  border-bottom: 20px solid $yellow;
+  .carousel-item {
+    img {
+      height: 500px;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      h3 {
+        font-family: 'Montserrat', sans-serif;
+      }
+    }
+  }
+}

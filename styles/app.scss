@@ -1,0 +1,20 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+
+:root {
+  --mainColor: #ff9800;
+}
+
+$light: #ccc2b4;
+$yellow: #ff9800;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  position: relative;
+}

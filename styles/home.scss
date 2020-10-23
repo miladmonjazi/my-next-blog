@@ -1,0 +1,30 @@
+.main-container {
+  &.home {
+    nav {
+      a {
+        color: $light;
+        &:hover {
+          color: $light;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80');
+  background-size: cover;
+  position: relative;
+  border-bottom: 20px solid $yellow;
+  h1 {
+    color: var(--mainColor);
+    font-size: 50px;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 800;
+    position: absolute;
+    left: -145px;
+    bottom: 175px;
+    transform: rotate(-90deg);
+  }
+}
